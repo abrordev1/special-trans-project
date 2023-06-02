@@ -1,18 +1,20 @@
 <template>
   <div class="home-page">
-    <h1>Home page</h1>
-    <TheButton>Заказать звонок </TheButton>
-    <TheTitle>Почему выбирают нас</TheTitle>
+    
+    <HeroSection></HeroSection>
+    
   </div>
 </template>
 
 <script>
 import TheButton from '../../ui/TheButton.vue';
 import TheTitle from '../../ui/TheTitle.vue';
+import HeroSection from './sections/HeroSection.vue'
+
 
 
 
 export default {
-  components: { TheButton, TheTitle }
+  components: { TheButton, TheTitle, HeroSection }
 }
 </script>
