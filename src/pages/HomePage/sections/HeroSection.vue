@@ -1,5 +1,5 @@
 <template>
-    <section class="hero h-screen">
+    <section class="hero h-screen bg bg-right">
 
     </section>
 </template>
