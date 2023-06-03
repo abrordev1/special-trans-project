@@ -1,7 +1,7 @@
 <template>
-    <div class="header-menu ml-[90px]">
+    <div class="header-menu lg:ml-14 2xl:ml-[90px] hidden lg:block">
         <ul class="menu flex text-dark">
-            <li class="mr-14 hover:text-green cursor-pointer duration-300" v-for="item in menuItems" :key="item">
+            <li class="2xl:mr-14 lg:mr-6 hover:text-green lg:text-sm 2xl:text-lg cursor-pointer duration-300" v-for="item in menuItems" :key="item">
                 {{ item.name }}
             </li>
         </ul>
