@@ -1,20 +1,20 @@
 <template>
-  <div class="home-page">
-    
-    <HeroSection></HeroSection>
+  <div class="home-page">    
+    <HeroSection />
+    <ServicesSections />
     
   </div>
 </template>
 
 <script>
-import TheButton from '../../ui/TheButton.vue';
-import TheTitle from '../../ui/TheTitle.vue';
+
 import HeroSection from './sections/HeroSection.vue'
+import ServicesSections from './sections/ServicesSections.vue';
 
 
 
 
 export default {
-  components: { TheButton, TheTitle, HeroSection }
+  components: { HeroSection, ServicesSections }
 }
 </script>
