@@ -7,4 +7,4 @@
             <slot name="text" />
         </div>
     </div>
-</template>
+</template>  
