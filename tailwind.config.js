@@ -17,6 +17,7 @@ export default {
       center: true,
       padding: '1.2rem',
       screens: {
+        'xs': '430px',
         'sm': '640px',
         // => @media (min-width: 640px) { ... }
   
@@ -35,6 +36,7 @@ export default {
     },
     theme: {
       screens: {
+        'xs': '430px',
         'sm': '640px',
         // => @media (min-width: 640px) { ... }
   
