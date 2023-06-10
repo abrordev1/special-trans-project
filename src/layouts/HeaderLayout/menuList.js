@@ -1,11 +1,11 @@
 export default [
   {
     name: 'Услуги',
-    link: '',
+    link: 'services',
   },
   {
     name: 'Материалы',
-    link: '',
+    link: 'materials',
   },
   {
     name: 'Доставка и оплата',
